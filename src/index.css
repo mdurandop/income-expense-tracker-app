@@ -12,6 +12,7 @@ html, body {
 
 .app-container {
   margin: 0 auto;
+  min-height: 100dvh;
   width: 350px;
   background-color: #E5E5E5;
   overflow-y: auto;

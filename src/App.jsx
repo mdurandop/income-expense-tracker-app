@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Gretting from "./components/Gretting";
+import Greeting from "./components/Greeting";
 import Transaction from "./components/Transaction";
 import BottomNav from "./components/BottomNav";
 import Card from "./components/Card";
@@ -8,7 +8,7 @@ import Card from "./components/Card";
 const App = () => {
     return (
         <div className="app-container h-full flex flex-col border border-solid border-zinc-950 relative">
-            <Gretting gretting='Good morning,' username='Maivi Durango'/>
+            <Greeting gretting='Good morning,' username='Maivi Durango'/>
             <Card />
             <div className="m-4">
                 <div className="flex justify-between items-center">

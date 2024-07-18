@@ -7,21 +7,21 @@ import { Link } from "react-router-dom";
 
 const BottomNav = () => {
     return (
-        <div className="w-full">
+        <div className="w-full absolute bottom-0">
             <div className="flex w-full bg-white py-4 items-center justify-evenly">
-                <div>
+                <div className="cursor-pointer">
                     <img src={Home} alt="" />
                 </div>
-                <div>
+                <div className="cursor-pointer">
                     <img src={BarChart} alt="" />
                 </div>
                 <Link to='/expense' className="flex rounded-full brand-color size-10 shadow-xl cursor-pointer">
                     <p className="m-auto text-2xl">+</p>
                 </Link>
-                <div>
+                <div className="cursor-pointer">
                     <img src={Wallet} alt="" />
                 </div> 
-                <div>
+                <div className="cursor-pointer">
                     <img src={User} alt="" />
                 </div>
             </div>
